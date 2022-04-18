@@ -21,8 +21,8 @@ jobs:
         # keyboard configuration. Multiple configs can be setup following this example: ['left','right']
         keyboard_config: ['single']
         # hardware configuration. 
-        #dware_config: ['bluemicro840v1_0']
-        hardware_config: ['bluemicrov2_1a']
+        dware_config: ['bluemicro840']
+        #hardware_config: ['bluemicrov2_1a']
         # Available options
         # feather52832     - use this for most nRF52832 based boards (needs Arduino_nRF52_Bootloader)
         # 4x4macropad_nrf52832 - use this for the 4x4Macropad by jpconstantineau
@@ -32,7 +32,7 @@ jobs:
         # nice_nano
         # pca10056 - use this for all other nRF52840 based boards not listed above (needs Arduino_nRF52_Bootloader)
         # compile_with: ['bluemicro_nrf52840']
-        compile_with: ['feather52832']
+        compile_with: ['bluemicro_nrf52840']
 
     # you shouldn't need to edit anything below
     steps:
